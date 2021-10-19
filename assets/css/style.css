@@ -273,7 +273,7 @@ footer {
 
 .personal-info-item .key {
     width: 30%;
-    margin-right: 21px;
+    margin-right: 15px;
     padding-top: 2px;
     vertical-align: top;
 }
@@ -284,7 +284,7 @@ footer {
 
 .personal-info-item .value {
     position: relative;
-    width: 50%;
+    width: 60%;
 }
 
 /* ----------------------------------------Skills */
