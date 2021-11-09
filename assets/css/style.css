@@ -196,6 +196,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    width: 100%;
 }
 
 .cv-pdf i {
