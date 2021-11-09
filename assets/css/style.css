@@ -315,6 +315,11 @@ footer {
     margin-bottom: 50px;
 }
 
+.history-heading1 {
+    color: #000000;
+    margin-bottom: 50px;
+}
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
