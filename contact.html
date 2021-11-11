@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    /*<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script> */ 
     
     
 </head>
@@ -75,15 +74,22 @@
                         <div class="col">
                 <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
                 <h5 class="uppercase text-center">Let's work together!</h5>
-                    <div class="center-form">
+                <div style="display: flex; align-items: center; justify-content: center;">
                     <form>
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
-                        <textarea rows="5" name="message" id="message" class="form-control" placeholder="Project description" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button onclick="sendmail()" class="btn btn-primary">Send Project Request</button>
-                            </div>
+                        <div class="form-group">
+                            <label for="fname">Full Name :</label>
+                            <input class="form-control" type="text" id="name" name="fullname" placeholder="Your full name...">
+            
+                            <label for="email">Email :</label>
+                            <input class="form-control" type="text" id="email" name="email" placeholder="Your email...">
+            
+                            <label for="message">Message :</label>
+                            <textarea class="form-control textarea" id="message" rows="3" placeholder="Your message..."></textarea>
+            
+                             <button onclick="sendmail()" type="button" class="btn btn-primary">Send</button>
+                        </div>
+                    </form>
+                </div>
                         </div>
                     </form>
                 </div>
