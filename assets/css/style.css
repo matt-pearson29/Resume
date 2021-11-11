@@ -377,7 +377,7 @@ footer {
     max-width: 80%;
 }
 
-.button {
+button[type="button"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
