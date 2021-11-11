@@ -6,12 +6,12 @@
 function sendmail() {
     let fullName = document.getElementById("name").value;
     let userEmail = document.getElementById("email").value;
-    let userMessage = document.getElementById("projectsummary").value;
+    let userMessage = document.getElementById("message").value;
 
         var contactParams = {
             from_name: fullName,
             from_email: userEmail,
-            projectsummary: userMessage
+            message: userMessage
         };
 
         emailjs.send('service_vgoaob9', 'template_resume', contactParams).then(function (res) {})
