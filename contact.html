@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    /*<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script> */ 
     
     
 </head>
@@ -82,7 +82,7 @@
                         <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="onsubmit" class="btn btn-secondary">Send Project Request</button>
+                                <button onclick="sendmail()" class="btn btn-secondary">Send Project Request</button>
                             </div>
                         </div>
                     </form>
